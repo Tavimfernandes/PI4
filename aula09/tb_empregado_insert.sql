@@ -1,4 +1,11 @@
+show databases;
+
+select database();
+
+show tables;
+
 use empresa;
+
 SELECT * FROM empresa.tb_empregado;
 
 insert into tb_empregado
